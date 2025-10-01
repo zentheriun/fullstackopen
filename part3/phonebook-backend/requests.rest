@@ -1,0 +1,14 @@
+### Obtener todas las personas
+GET http://localhost:3001/api/persons
+
+### Agregar una persona
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Arto Hellas",
+  "number": "040-1234567"
+}
+
+### Info
+GET http://localhost:3001/info
