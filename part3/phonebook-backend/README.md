@@ -33,6 +33,11 @@ The application is deployed and available at:
 
 ### **[https://phonebook-backend-al2c.onrender.com](https://phonebook-backend-al2c.onrender.com)**
 
+### Try the API:
+- 📊 **Info endpoint**: [https://phonebook-backend-al2c.onrender.com/info](https://phonebook-backend-al2c.onrender.com/info)
+- 👥 **All persons**: [https://phonebook-backend-al2c.onrender.com/api/persons](https://phonebook-backend-al2c.onrender.com/api/persons)
+- 👤 **Single person**: `https://phonebook-backend-al2c.onrender.com/api/persons/<id>`
+
 ---
 
 ## 📋 Table of Contents
@@ -154,6 +159,8 @@ GET /api/persons
 
 Returns all phonebook entries.
 
+**Live example**: [https://phonebook-backend-al2c.onrender.com/api/persons](https://phonebook-backend-al2c.onrender.com/api/persons)
+
 #### Get single person
 
 ```http
@@ -161,6 +168,8 @@ GET /api/persons/:id
 ```
 
 Returns a specific person by ID.
+
+**Example**: `https://phonebook-backend-al2c.onrender.com/api/persons/<id>`
 
 #### Create new person
 
@@ -207,6 +216,8 @@ GET /info
 ```
 
 Returns statistics about the phonebook (total entries and timestamp).
+
+**Live example**: [https://phonebook-backend-al2c.onrender.com/info](https://phonebook-backend-al2c.onrender.com/info)
 
 ---
 
